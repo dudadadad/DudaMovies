@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eduarda Oliveira de Souza">
+    <meta name="description" content="Site que revela posteres de determinado filme ou série digitado pelo usuário na barra de pesquisa do mesmo">
+    <meta name="keywords" content="Movie, Filmes, Séries, Catalogo, Busca, Cinema, Televisão, Posteres">
+    <title>LumoCine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="cinema.png" alt="Ícone" class="icone">
+        <h1>LumoCine</h1>
+        <div class="search-bar">
+            <input type="text" id="pesquisa-input" placeholder="Pesquise filmes e séries">
+            <button id="pesquisa-botao">Pesquisar</button>
+        </div>
+    </header>
+    <main>
+        <div class= "encontre">
+            <h4>Encontre seus filmes e séries favoritos no LumoCine</h4>
+            <h2 class="h2">Bem-vindos ao LumoCine!
+                Aqui, você pode explorar filmes e séries digitando o título desejado.
+                Nossa função principal é fornecer informações sobre os filmes que você procura, tornando a sua experiência de busca e pesquisa cinematográfica mais simples e eficaz.
+                Sintam-se à vontade para começar a sua jornada cinematográfica!
+            </h2>
+        </div>
+        <div id="catalog" class="filme-catalog"></div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <hr>
+        <div class="info-bar">
+            <div class="info-section">
+                <h3>Sobre nós</h3>
+                <p>Somos apaixonados por filmes e séries e estamos aqui para apresentar um catálogo completo e repleto de recomendações para você.</p>
+            </div>
+            <div class="info-section">
+                <h3>Contato</h3>
+                <p>Entre em contato conosco em filmes@siteapi.com para dúvidas e sugestões.</p>
+            </div>
+            <div class="info-section">
+                <h3>Redes Sociais</h3>
+                <p>Siga-nos nas redes sociais para ficar atualizado sobre os últimos lançamentos.</p>
+                <a href="#" class="social-icon"> <img src="facebook.png"></a>
+                <a href="#" class="social-icon"><img src="twitter.png"></a>
+                <a href="#" class="social-icon"><img src="instagram.png"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
